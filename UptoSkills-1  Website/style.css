@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    color:rgb(162, 160, 160);
+    background-color: #021526;
+    height:45px;
+}
+nav p{
+    padding:11px 30px 0px 30px;
+}
+nav .a{
+    padding:11px 30px 0px 90px;
+}
+nav .b{
+    padding: 11px 90px 0px 30px;
+}
+
+.first{
+    font-size:12px;
+    padding: 0px 15px 0px 15px;
+}
+
+nav p:hover{
+    color:rgb(2, 162, 2);
+}
+nav button:hover{
+    background-color: rgb(19, 19, 190);
+}
+nav .icons svg:hover{
+    color: hwb(26 0% 0%);
+}
+
+.middle h5:hover{
+    font-size: 21px;
+}
+.end svg:hover{
+    color:rgb(25, 149, 25);
+}
+.second{
+    padding: 0px 25px 0px 25px;
+}
+.icon-1{
+    height:30px;
+    width:20px;
+}
+nav button{
+    background-color: hwb(26 0% 0%);
+    color:white;
+}
+.icons{
+    display: flex;
+    gap:17px;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-2{
+    padding:0 0 0 20px;
+}
+.hero{
+    height:490px;
+    background-color: rgb(211, 211, 255);
+}
+.p{
+    display:flex;
+}
+.middle,.end{
+    display:flex;
+    gap:40px;
+    padding:27px 40px 0px 140px;
+}
+.end svg{
+    height:25px;
+    width:25px;
+}
+#img-1{
+    height:70px;
+    padding:15px 0px 0px 90px;
+}
+hr{
+   margin:20px 40px 0px 40px;
+    border: 20px solid black; /* Line thickness & color */
+    width: 100%; 
+}
+.hero h1{
+    padding:130px 50px 0px 330px;
+    font-size: 2.9rem;
+}
+.third{
+    height:330px;
+}
+.third h1{
+    font-size: 3rem;
+    padding:70px 50px 65px 80px;
+    text-align: center;
+}
+.flim video{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    z-index: -1;
+}
+.flim h3{
+    color:black;
+}
+.text {
+    position: absolute;
+    top: 145%;
+    color: black;
+    
+}
+.text h3{
+    font-size: 2.5rem;
+    color:rgb(107, 7, 7);
+    padding: 0 0 0 20px;
+}
+.text h5{
+    color:rgb(107, 7, 7);
+    padding: 5px 0px 0px 20px;
+}
+.text h1{
+    color:rgb(107, 7, 7);
+    padding: 5px 0px 0px 20px;
+    font-size: 3.2rem;
+}
+
+.StudentInfo,.insideForm{
+    display:flex;
+}
+.content{
+    width:25%;
+    margin:90px 30px 0px 80px;
+}
+.content h1{
+    font-size: 3rem;
+}
+.content p{
+    font-size:17px;
+}
+.form{
+    margin:60px 30px 0px 20px;
+}
+#one, #two, #three, #four, #five, #six, #seven{
+    padding:20px 15px;
+    margin:5px;
+    background-color: rgb(239, 238, 238);
+    border:0;
+    border-radius: 9px;
+}
+#one, #two, #three, #four, #five, #six{
+    width:25rem;
+}
+#seven{
+    width:99%;
+}
+.insideForm,.big{
+    font-size: 18px;
+}
+.insideForm label{
+    margin:5px;
+}
+.big{
+    padding:25px 0px 0px 0px;
+}
+textarea{
+    width:100%;
+}
+.Submit{
+    background-color:  hwb(26 0% 0%);
+    padding:15px 40px;
+    border:0;
+    border-radius: 9px;
+}
+.Submit:hover{
+    background-color: rgb(238, 211, 192);
+    border:2px solid orangered;
+}
+footer{
+    height:27rem;
+    background-color:  #021526;
+    margin:60px 0 0 0;
+    padding:60px 0 0 0;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+}
+#img-2{
+    height:80px;
+    padding:0 0 20px -15px;
+}
+.w h5{
+    padding:6px;
+}
+.icons22>svg{
+    padding:3px;
+    height:20px;
+    width:20px;
+}
+.icons22>svg:hover{
+    color: orangered;
+}
+
+.x,.y,.z{
+    font-size: 17px;
+}
+span{
+    color:orangered;
+}
+.last{
+    height:60px;
+    background-color: black;
+    color:rgb(135, 131, 131);
+    padding:16px 0 0 90px;
+}
+.x p:hover{
+    text-decoration: underline;
+    color:rgba(66, 154, 217, 0.933)
+}
+.y p:hover{
+    text-decoration: underline;
+    color:rgba(66, 154, 217, 0.933)
+}
